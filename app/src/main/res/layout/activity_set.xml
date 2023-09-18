@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET 1" />
+
+        <Button
+            android:id="@+id/btnSet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET 2" />
+
+        <Button
+            android:id="@+id/btnSet3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET 3" />
+
+        <Button
+            android:id="@+id/btnSet4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET 4" />
+
+        <Button
+            android:id="@+id/btnSet5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET 5" />
+
+        <Button
+            android:id="@+id/btnSet6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SET 6" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
